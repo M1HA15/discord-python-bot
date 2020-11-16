@@ -17,7 +17,7 @@ def get_prefix(bot, message):
     return prefixes[str(message.guild.id)]
 
 bot = commands.Bot(command_prefix= get_prefix)
-token = 'NzUyMjAyNzMyOTAyOTQwNzgz.X1UNYg.Tuovtf3VcYqvsccUBcfm_w1twEQ'
+token = 'your bot token'
 bot.remove_command('help')
 start_time = datetime.datetime.utcnow()
 
