@@ -6,6 +6,6 @@ Hello!
 This is Sparky's official source code!
 
 Who created the Sparky bot and what should this bot do?
-This bot is created by Mihai✪#9736 and aims to help you moderate your Discord server
+This bot is created by M1HA1#0001 and aims to help you moderate your Discord server
 
-Need help? You can contact M1HA1#0232!
+Need help? You can contact on Discord Mihai: M1HA1#0001
