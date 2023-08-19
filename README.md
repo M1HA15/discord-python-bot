@@ -1,4 +1,4 @@
-#Discord Casual Python Bot
+# Discord Casual Python Bot
 
 This is the source code of the old Sparky bot.
 It was added to 209 Discord servers and was able to please all its users.
