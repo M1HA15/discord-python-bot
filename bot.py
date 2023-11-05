@@ -60,7 +60,7 @@ async def on_message_delete(message):
     log_channel = discord.utils.get(message.guild.channels, name="deleted-messages")
 
     if not log_channel:
-        channel = bot.get_channel(762366319327707186)
+        channel = bot.get_channel()       #in () put your channel id!
         
         em = discord.Embed(title='Message deleted!', color=0xfcf8f8)
         em.add_field(name='Message Author:',value=f"{message.author.mention}(ID:{message.author.id})" or '\u200B',inline=False)
@@ -169,7 +169,7 @@ async def purge_error(ctx, error):
 
 @bot.command(name='support')
 async def support(ctx):
-    support_server = 'https://discord.gg/zMj9Uj8'
+    support_server = 'server invite link'
     description = f'''
     Join **[support server]({support_server})** for questions and support.
     '''
@@ -180,7 +180,7 @@ async def support(ctx):
 
 @bot.command(name='invite')
 async def invite(ctx):
-    invite_link = 'https://discord.com/api/oauth2/authorize?client_id=752202732902940783&permissions=351599830&scope=bot'
+    invite_link = 'put bot invite link'
     description = f'''
     Use this **[invite link]({invite_link})** to invite me.
     '''
