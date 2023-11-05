@@ -3,6 +3,8 @@
 This is the source code of the old Sparky bot!
 
 It was added to 209 Discord servers and was able to please all its users.
+
+
 <a href="https://top.gg/bot/752202732902940783">
     <img src="https://top.gg/api/widget/752202732902940783.svg" alt="Sparky" />
 </a>
